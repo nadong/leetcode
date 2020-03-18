@@ -1,0 +1,13 @@
+Tree Definition
+
+type TreeNode struct{
+	Val int
+	Left *TreeNode
+	Right *TreeNode
+}
+
+1 二叉搜索树的中序遍历就是从小到大的顺序
+
+相关leetcode 题目: 94, 530, 230, 501, 938, 653, 
+
+
