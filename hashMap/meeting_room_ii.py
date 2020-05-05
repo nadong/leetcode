@@ -13,7 +13,6 @@ import collections
 
 pairs = [[4, 10], [3, 5], [14, 25], [5, 8], [6, 9]]
 
-
 def meeting_room(meetings: []) -> int:
     m = collections.defaultdict(int)
     for each in meetings:
@@ -54,7 +53,6 @@ def merge_schedule(schedules: []) -> [int]:
 
 
 print(merge_schedule(pairs))
-
 
 def merge_schedule_stack(schedules: []) -> [int]:
     res = []
